@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title class="russ">Russekortgenerator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="generator.js"></script>
+    <h1>Russekortgenerator</h1>
+ 
+    <body>
+        <div id="russekortgenerator">
+            <h1 class="a">Navn:</h1>
+          <input type="text" id="navnInput" name="Navn" placeholder="hva heter du?" class="navn" required><br>
+         
+          <h2 class="a">Adresse:</h2>
+         <input type="text" id="adresseInput"  name="Adresse" class="add" required><br>
+ 
+          <h3 class="a">Telefon:</h3>
+         <input type="text" id="TlfInput" name="tlf" class="tlf" required><br>
+ 
+        <h4 class="a">Farge:</h4>
+        <input type ="radio" value="Rosa" name="Farge"><span>Rosa</span>
+        <input type ="radio" value="Blå" name="Farge"><span>Blå</span>
+        <input type ="radio" value="Grønn" name="Farge"><span>Grønn</span>
+        <input type ="radio" value="Svart" name="Farge"><span>Svart</span>
+        <input type ="radio" value="Rød" name="Farge"><span>Rød</span>
+ 
+        <h5 class="a">Skole:</h5>
+        <select name ="skolevalg">
+            <option value="">Velg en skole</option>
+            <option value="Mailand">Mailand</option>
+            <option value="Relingen">Rælingen</option>
+            <option value="Oslomet">Lillestrøm</option>
+        </select>
+        <p id="sitater"></p>
+        <button id="sitater" class ="Sitat">Bytt sitat</button>
+        <link rel="stylesheet" href="sitater.js">
+ 
+        <div class="ramme"></div>
+ 
+        <link rel="stylesheet" href="style.css">
+    <div id="boks">
+        <h2 id="skriveSkole">Mailandrussen 2024</h2>
+        <h2 id="skriveFarge">Russ</h2>
+        <img src="araber.jpeg" id="bilde">
+        <p>Navn: <span id="navnInput">[Navnet vises her]</span></p>
+        <p id="skriveAdresse"><b>Adresse</b></p>
+        <p id="skriveNummer"><b>Telefon</b></p>
+        <input type="text" id="sitatInput" placeholder="Sitat">
+    </div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+ 
+    </body>
+</head>
+
+<style></
